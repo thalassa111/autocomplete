@@ -19,6 +19,6 @@ The latter three are the ones being loaded into the database when pressing "Load
 - Press each "Load database ..." button to populate the databases, make sure the database is populated. Ngram takes some time, don't worry, population time is also measured, when the time is shown, it's done.
 - Start typing in one field, each letter added will return results.
 - Delete and insert will also work, and the time will also show.
-- To upload a new list of words, delete the content of the file.
+- To upload a new list of words, delete the content of the file first, then add from one of the presaved files, or just add own words, separate the words with enter.
 ### Stuff todo
 Was in a rush to finish this project so everything is not as intuitive as it should be. :-P
