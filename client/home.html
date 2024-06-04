@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Autocomplete</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="icon" href="image/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<div class="container">
+    <textarea id="timeLogTrie" placeholder="Time Log Trie..." rows="20" readonly></textarea>
+    <button onclick="loadDBTrie()">Load database Trie</button>
+    <button onclick="insertWordTrie()">Insert Word</button>
+    <button onclick="deleteWordTrie()">Delete Word</button>
+    <input type="text" id="myInputTrie" placeholder="Trie...">
+    <ul id="suggestionsListTrie" class="suggestions-list"></ul>
+</div>
+<div class="container">
+    <textarea id="timeLogHash" placeholder="Time Log Hash Table..." rows="20" readonly></textarea>
+    <button onclick="loadDBHash()">Load database Hash Table</button>
+    <button onclick="insertWordHash()">Insert Word</button>
+    <button onclick="deleteWordHash()">Delete Word</button>
+    <input type="text" id="myInputHash" placeholder="Hash Table...">
+    <ul id="suggestionsListHash" class="suggestions-list"></ul>
+</div>
+<div class="container">
+    <textarea id="timeLogNgram" placeholder="Time Log Ngram..." rows="20" readonly></textarea>
+    <button onclick="loadDBNgram()">Load database Ngram</button>
+    <button onclick="insertWordNgram()">Insert Word</button>
+    <button onclick="deleteWordNgram()">Delete Word</button>
+    <input type="text" id="myInputNgrams" placeholder="Ngram...">
+    <ul id="suggestionsListNgrams" class="suggestions-list"></ul>
+</div>
+<script src="js/home.js"></script>
+</body>
+</html>
